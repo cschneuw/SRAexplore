@@ -8,6 +8,8 @@ This package makes use of the pysradb package to fetch study metadata from SRA. 
 
 It uses streamlit to produce a GUI in html that allows the user add some filters and launch a new query. Plots were generated with plotly and are all interactive. Meaning that we can unselect some studies for example, the data can be viausalized by just hovering with the mouse on the data points and by double clicking on a specific study or data point, it will be automatically zoomed in. Fetched raw data can be visualized by just clicking on a select box at the end of the html page. 
 
+Additionally package management was done with poetry and is required to install all the dependencies. 
+
 ## Installation for end-user
 
 1) Clone the repository
