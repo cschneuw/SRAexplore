@@ -81,3 +81,5 @@ Streamlit provides a nice and quick way to create GUIs for users, however we onl
 With more time and more diving into the data and studies available, it would have been nice to list and verify all available entries to SRA, to make the selection of studies easier for the user by making multiple choices selection. Also an additonal scraping of the inputs to detect words of interest. This would have been implemented as an additonal function or as unitary tests. Since currently, we only have a simple pass test that just allowed us to know if the installation was correct. 
 
 Pysradb allows some additional filtering on the data, that we left out to still keep a rather simple interface for the user. However in future verisons, these additonal filters could be explored and hidden in an optional widget. 
+
+In the future, it would also be great to containerize it using Docker, since my experience with it is really fresh (as is streamlit, by the way), I chose to not waste more time than necessary on setting it up. 
