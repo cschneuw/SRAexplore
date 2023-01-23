@@ -36,7 +36,7 @@ pip install .
 1) Clone the repository
 
 ```bash
-git clone 
+git clone https://github.com/cschneuw/SRAexplore.git
 ```
 
 2) Create a conda environment with python 3.10 and activate it.
