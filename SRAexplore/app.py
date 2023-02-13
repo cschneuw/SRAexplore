@@ -148,7 +148,7 @@ with row4_1:
     data_study = data[data["study_accession"] == selected_study]
     st.write(data_characteristics(data_study, query)[0])
 with row4_2:
-    st.plotly_chart(plot_study_actgn_content(data))
+    st.plotly_chart(plot_study_actgn_content(data_study))
 
 # RAW DATA
 

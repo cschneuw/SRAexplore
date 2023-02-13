@@ -1,6 +1,5 @@
 from utils import human_readable_size
 import numpy as np
-import decimal
 
 
 def data_characteristics(data, query):
