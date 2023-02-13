@@ -27,7 +27,7 @@ def simple_statistics(data):
         f"Number of unique studies : {data['study_accession'].unique().size}  \n"
         f"Number of unique experiments : {data['experiment_accession'].unique().size}  \n"
         f"Number of unique samples : {data['sample_accession'].unique().size}  \n"
-        f"Maximal numeber of runs per entry : {data['run_set_runs'].max()}  \n"
+        f"Maximal number of runs per entry : {data['run_set_runs'].max()}  \n"
         f"Mean bases : {human_readable_size(mean_bases)}  \n"
         f"Mean bytes : {human_readable_size(mean_bytes)}  \n"
         f"Mean spots : {human_readable_size(mean_spots)}  \n"
